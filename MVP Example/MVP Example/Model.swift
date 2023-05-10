@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Model - UserData
+// MARK: Model - UserData
 struct Person {
     let name: String
     let surname: String

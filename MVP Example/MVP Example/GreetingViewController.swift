@@ -7,12 +7,12 @@
 
 import UIKit
 
-// Protocol as public interface
-protocol GreetingViewProtocol {
+// Protocol as public interface for our ViewController
+protocol GreetingViewProtocol: AnyObject {
     func setGreeting(_ greeting: String)
 }
 
-// our "Passive View"
+// MARK: "Passive View"
 class GreetingViewController: UIViewController {
     
     // MARK: - IBOutlets

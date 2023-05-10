@@ -14,6 +14,7 @@
 		DD4519C32A0BC178002795F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4519C22A0BC178002795F6 /* Assets.xcassets */; };
 		DD4519C62A0BC178002795F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4519C42A0BC178002795F6 /* LaunchScreen.storyboard */; };
 		DD4519CE2A0BC615002795F6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4519CD2A0BC615002795F6 /* Model.swift */; };
+		DD4519D02A0BC63C002795F6 /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4519CF2A0BC63C002795F6 /* GreetingPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DD4519C52A0BC178002795F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD4519C72A0BC178002795F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4519CD2A0BC615002795F6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD4519CF2A0BC63C002795F6 /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DD4519B92A0BC176002795F6 /* AppDelegate.swift */,
 				DD4519BB2A0BC176002795F6 /* SceneDelegate.swift */,
 				DD4519BD2A0BC176002795F6 /* GreetingViewController.swift */,
+				DD4519CF2A0BC63C002795F6 /* GreetingPresenter.swift */,
 				DD4519CD2A0BC615002795F6 /* Model.swift */,
 				DD4519BF2A0BC176002795F6 /* Main.storyboard */,
 				DD4519C22A0BC178002795F6 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD4519BE2A0BC176002795F6 /* GreetingViewController.swift in Sources */,
+				DD4519D02A0BC63C002795F6 /* GreetingPresenter.swift in Sources */,
 				DD4519BA2A0BC176002795F6 /* AppDelegate.swift in Sources */,
 				DD4519BC2A0BC176002795F6 /* SceneDelegate.swift in Sources */,
 				DD4519CE2A0BC615002795F6 /* Model.swift in Sources */,
